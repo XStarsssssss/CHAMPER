@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet"  href="home.css">
+</head>
+<body>
+    <nav class="bar">
+        <div class="bar-left">
+            <a href="index.html" class="logo">CHAMPER</a>
+            <input type="text" id="search" placeholder="Search" class="search-bar" oninput="searchPosts()">
+        </div>
+        <div class="bar-right">
+            <a href="Zora.html">Home</a>
+            <a href="Zora-profile.html">Profile</a>
+            <a href="login.html">Logout</a>
+        </div>
+    </nav>
+
+    <div class="main-container">
+        <div class="sidebar">
+            <a href="Zora-Messenger.html">Messenger</a>
+            <a href="Zora-group.html">Groups</a>
+            <a href="Zora-event.html">Events</a>
+            <a href="Zora-page.html">Pages</a>
+        </div>
+        <div class="news-feed">
+            <div class="add-post">
+                <textarea placeholder="What's on your mind?"></textarea>
+                <button>Post</button>
+            </div>
+                <div class="posts">
+                    <div class="post">
+                        <div class="post-header">
+                            <img src="Star.jpg" alt="User Avatar" class="user-avatar">
+                            <div class="user-info">
+                                <h3>X-Star</h3>
+                                <p>Posted on May 16, 2024</p>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                            <p>Life is boomerang</p>
+                            <p>What you give, you get.</p>
+                            <hr>
+                        </div>
+                        <div class="post-reaction">
+                            <input type="radio" id="like-1" name="reaction-1">
+                            <label for="like-1">Like</label>
+                            <input type="radio" id="dislike-1" name="reaction-1">
+                            <label for="dislike-1">Dislike</label>
+                        </div>
+                        <div class="comment">
+                            <button>Comment</button>
+                        </div>
+                    </div>  
+                </div>
+                <div class="posts">
+                    <div class="post">
+                        <div class="post-header">
+                            <img src="Zora.jpg" alt="User Avatar" class="user-avatar">
+                            <div class="user-info">
+                                <h3>Zora</h3>
+                                <p>Posted on May 17, 2024</p>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                            <p>My life</p>
+                            <p>My rules</p>
+                            <p>My style</p>
+                            <p>My attitude</p>
+                            <p>You love me or hate me</p>
+                            <p>I don't care</p>
+                            <p>But don't play with me Okay?</p>
+                            <hr>
+                        </div>
+                        <div class="post-reaction">
+                            <input type="radio" id="like-2" name="reaction-2">
+                            <label for="like-2">Like</label>
+                            <input type="radio" id="dislike-2" name="reaction-2">
+                            <label for="dislike-2">Dislike</label>
+                        </div>
+                        <div class="comment">
+                            <button>Comment</button>
+                        </div>
+                    </div>
+                </div>             
+                <div class="posts">
+                    <div class="post">
+                        <div class="post-header">
+                            <img src="Kal pf.jpg" alt="User Avatar" class="user-avatar">
+                            <div class="user-info">
+                                <h3>Kal</h3>
+                                <p>Posted on May 17, 2024</p>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                            <p>Rare as the glimmer of a comet in the sky</p>
+                            <hr>
+                        </div>
+                        <div class="post-reaction">
+                            <input type="radio" id="like-3" name="reaction-3">
+                            <label for="like-3">Like</label>
+                            <input type="radio" id="dislike-3" name="reaction-3">
+                            <label for="dislike-3">Dislike</label>
+                        </div>
+                        <div class="comment">
+                            <button>Comment</button>
+                        </div>
+                    </div>
+                </div>    
+                <div class="posts">
+                    <div class="post">
+                        <div class="post-header">
+                            <img src="Star.jpg" alt="User Avatar" class="user-avatar">
+                            <div class="user-info">
+                                <h3>X-Star</h3>
+                                <p>Posted on May 18, 2024</p>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                            <p>I'm the desinger of my own catastrophy.</p>
+                            <hr>
+                        </div>
+                        <div class="post-reaction">
+                            <input type="radio" id="like-4" name="reaction-4">
+                            <label for="like-4">Like</label>
+                            <input type="radio" id="dislike-4" name="reaction-4">
+                            <label for="dislike-4">Dislike</label>
+                        </div>
+                        <div class="comment">
+                            <button>Comment</button>
+                        </div>
+                    </div>
+                </div>    
+                <div class="posts">
+                    <div class="post">
+                        <div class="post-header">
+                            <img src="Zora.jpg" alt="User Avatar" class="user-avatar">
+                            <div class="user-info">
+                                <h3>Zora</h3>
+                                <p>Posted on May 18, 2024</p>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                            <p>Silent is the worst good bye.</p>
+                            <Hr>
+                        </div>
+                        <div class="post-reaction">
+                            <input type="radio" id="like-5" name="reaction-5">
+                            <label for="like-5">Like</label>
+                            <input type="radio" id="dislike-5" name="reaction-5">
+                            <label for="dislike-5">Dislike</label>
+                        </div>
+                        <div class="comment">
+                            <button>Comment</button>
+                        </div>
+                    </div>
+                </div>    
+                    <div class="posts">
+                        <div class="post">
+                            <div class="post-header">
+                                <img src="Kal pf.jpg" alt="User Avatar" class="user-avatar">
+                                <div class="user-info">
+                                    <h3>Kal</h3>
+                                    <p>Posted on May 18, 2024</p>
+                                </div>
+                            </div>
+                            <div class="post-content">
+                                <p>Growing up precocious sometimes means not growing up at all.</p>
+                                <hr>
+                            </div>
+                            <div class="post-reaction">
+                                <input type="radio" id="like-6" name="reaction-6">
+                                <label for="like-6">Like</label>
+                                <input type="radio" id="dislike-6" name="reaction-6">
+                                <label for="dislike-6">Dislike</label>
+                            </div>
+                            <div class="comment">
+                                <button>Comment</button>
+                            </div>
+                        </div>
+                    </div>    
+                    <div class="posts">
+                        <div class="post">
+                            <div class="post-header">
+                                <img src="Zora.jpg" alt="User Avatar" class="user-avatar">
+                                <div class="user-info">
+                                    <h3>Zora</h3>
+                                    <p>Posted on May 19, 2024</p>
+                                </div>
+                            </div>
+                            <div class="post-content">
+                                <p>Opportunity doesn't come many time.</p>
+                                <hr>
+                            </div>
+                            <div class="post-reaction">
+                                <input type="radio" id="like-7" name="reaction-7">
+                                <label for="like-7">Like</label>
+                                <input type="radio" id="dislike-7" name="reaction-7">
+                                <label for="dislike-7">Dislike</label>
+                            </div>
+                            <div class="comment">
+                                <button>Comment</button>
+                            </div>
+                        </div>
+                    </div>    
+                    <div class="posts">
+                        <div class="post">
+                            <div class="post-header">
+                                <img src="Kal pf.jpg" alt="User Avatar" class="user-avatar">
+                                <div class="user-info">
+                                    <h3>Kal</h3>
+                                    <p>Posted on May 19, 2024</p>
+                                </div>
+                            </div>
+                            <div class="post-content">
+                                <p>Nothing can make me feel better than you</p>
+                                <hr>
+                            </div>
+                            <div class="post-reaction">
+                                <input type="radio" id="like-8" name="reaction-8">
+                                <label for="like-8">Like</label>
+                                <input type="radio" id="dislike-8" name="reaction-8">
+                                <label for="dislike-8">Dislike</label>
+                            </div>
+                            <div class="comment">
+                                <button>Comment</button>
+                            </div>
+                        </div>
+                    </div>    
+                    <div class="posts">
+                        <div class="post">
+                            <div class="post-header">
+                                <img src="Star.jpg" alt="User Avatar" class="user-avatar">
+                                <div class="user-info">
+                                    <h3>X-Star</h3>
+                                    <p>Posted on May 19, 2024</p>
+                                </div>
+                            </div>
+                            <div class="post-content">
+                                <p>Coffee and friends make the perfect blend.</p>
+                                <hr>
+                            </div>
+                            <div class="post-reaction">
+                                <input type="radio" id="like-9" name="reaction-9">
+                                <label for="like-9">Like</label>
+                                <input type="radio" id="dislike-9" name="reaction-9">
+                                <label for="dislike-9">Dislike</label>
+                            </div>
+                            <div class="comment">
+                                <button>Comment</button>
+                            </div>
+                        </div>
+                    </div>    
+                    <div class="posts">
+                        <div class="post">
+                            <div class="post-header">
+                                <img src="Star.jpg" alt="User Avatar" class="user-avatar">
+                                <div class="user-info">
+                                    <h3>X-Star</h3>
+                                    <p>Posted on May 20, 2024</p>
+                                </div>
+                            </div>
+                            <div class="post-content">
+                                <p>If you don't like something </p>
+                                  <p>  Change it </p>
+                                  <p> If you can't change it</p>
+                                  <p> Change your attitude </p>
+                                  <p> Don't complain.</p>
+                                  <hr>
+                            </div>
+                            <div class="post-reaction">
+                                <input type="radio" id="like-10" name="reaction-10">
+                                <label for="like-10">Like</label>
+                                <input type="radio" id="dislike-10" name="reaction-10">
+                                <label for="dislike-10">Dislike</label>
+                            </div>
+                            <div class="comment">
+                                <button>Comment</button>
+                            </div>
+                    </div>
+                </div>    
+    </div>
+    <script src="scripts.js"></script>
+    
+    </body>
+    </html>
